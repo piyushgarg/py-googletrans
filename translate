@@ -34,13 +34,13 @@ def main():
         return
 
     result = translator.translate(args.text, dest=args.dest, src=args.src)
-    result = f"""
+    result1 = f"""
 [{result.src}] {result.origin}
     ->
 [{result.dest}] {result.text}
 [pron.] {result.pronunciation}
     """.strip()
-    print(result)
+    print(result1.text)
 
 
 if __name__ == "__main__":
