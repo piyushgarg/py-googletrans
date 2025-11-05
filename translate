@@ -40,7 +40,7 @@ async def main():
 [{result.dest}] {result.text}
 [pron.] {result.pronunciation}
     """.strip()
-    print(result1.text)
+    print(result.text)
 
 
 if __name__ == "__main__":
